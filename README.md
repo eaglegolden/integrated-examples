@@ -1,4 +1,4 @@
-**这里是分享主流科学上网的优化配置及最优组合示例（如是不太了解科学上网及部署，建议先依次从简单到复杂参考。），其特点如下：**  
+**本仓库分享的是主流科学上网的优化配置及最优组合示例（如不太了解科学上网，建议先简单到复杂参考部署。），可避免因配置不合理服务器被封问题，其特点如下：**  
 1. 实现了 V2Ray/Xray 应用（与 Shadowsocks、mKCP 关联的应用除外）使用 Local Loopback 连接与使用 UDS（Unix Domain Socket） 连接可选。
 2. 实现了 Xray 应用（与 mKCP 关联的应用除外）的 SNI 分流连接、回落/分流连接启用了 PROXY protocol 支持。
 3. 实现了 V2Ray/Xray 与 Caddy 的应用使用 UDS（Unix Domain Socket） 连接时采用 abstract 模式，不需考虑 UDS 路径及监听进程的访问权限。
@@ -88,13 +88,13 @@
 ### systemd 服务配置示例
 &emsp;[Service Configuration](https://github.com/lxhao61/integrated-examples/tree/main/Service%20Configuration)（配置软件服务由 systemd 管理。）
 
-### 原版客户端配置示例
-&emsp;[Client Configuration](https://github.com/lxhao61/integrated-examples/tree/main/Client%20Configuration)（若使用第三方客户端参考即可。）
-
 ### 服务端特殊应用配置示例
 1. [V2Ray(Other Configuration)](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Other%20Configuration)) （V2Ray 或 Xray 的特色应用配置方法。）
 2. [Caddy(Other Configuration)](https://github.com/lxhao61/integrated-examples/tree/main/Caddy(Other%20Configuration)) （Caddy 的特色应用配置方法。）
 3. [Fusion Configuration](https://github.com/lxhao61/integrated-examples/tree/main/Fusion%20Configuration) （服务端深度融合配置方法。）
+
+### 原版客户端配置示例
+&emsp;[Client Configuration](https://github.com/lxhao61/integrated-examples/tree/main/Client%20Configuration)（若使用第三方客户端参考即可。）
 
 ### 更新及贡献
 1. 根据科学上网软件更新不定时调整示例，如科学上网软件有新增功能及应用等。
